@@ -6,11 +6,6 @@ import jakarta.persistence.*;
 @Table(name = "conditionsdeventes")
 public class ConditionsDeVentes {
 
-    /*
-    id_condition_de_vente
-id_librairie
-link_doc_pdf
-     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_condition_de_vente;
