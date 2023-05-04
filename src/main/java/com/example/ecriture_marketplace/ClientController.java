@@ -1,6 +1,7 @@
-package com.example.ecriture_marketplace.repository;
+package com.example.ecriture_marketplace;
 
 import com.example.ecriture_marketplace.models.Client;
+import com.example.ecriture_marketplace.repository.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
